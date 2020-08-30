@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="software_test_program">Software Test Program</string>
+    <string name="edit_constraints">Edit Constraints</string>
+    <string name="save_constraints">Save Constraints</string>
+    <string name="show_constraints">Show Constraints</string>
+    <string name="constraint_title">Constraints</string>
+    <string name="add_item">Add Item</string>
+    <string name="save">Save</string>
+    <string name="show_pack_list">Show Pack List</string>
+    <string name="show_item_list">Show Item List</string>
+    <string name="constraint_info">Constraint Info</string>
+
+    <string name="enter_sort_order">Enter sort order</string>
+    <string name="enter_piece_limit">Enter piece limit</string>
+    <string name="enter_weight_limit">Enter weight limit</string>
+
+    <string name="hint_item_id">Enter Item ID</string>
+    <string name="hint_length">Enter Length</string>
+    <string name="hint_quantity">Enter Quantity</string>
+    <string name="hint_weight">Enter Weight</string>
+
+    <!-- Result string -->
+    <string name="saved_successfully">Saved successfully</string>
+    <string name="failed_to_save">Failed to save</string>
+
+    <string name="item_id_label">Item ID: %s</string>
+    <string name="item_length_label">Item Length: %s</string>
+    <string name="item_quantity_label">Item Quantity: %s</string>
+    <string name="item_weight_label">Item Weight: %s</string>
+
+    <string name="package_number">Package Number: %d</string>
+    <string name="package_length">Package Length: %s</string>
+    <string name="package_weight">Package Weight: %s</string>
+
+    <string-array name="sort_orders">
+        <item>NATURAL</item>
+        <item>SHORT_TO_LONG</item>
+        <item>LONG_TO_SHORT</item>
+    </string-array>
+</resources>

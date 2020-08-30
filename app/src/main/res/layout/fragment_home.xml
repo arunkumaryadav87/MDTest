@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    android:padding="@dimen/medium_margin">
+    <Button
+        android:id="@+id/btnShowConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:text="@string/show_constraints"
+        android:theme="@style/AppTheme.LightButton" />
+
+    <Button
+        android:id="@+id/btnAddItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnShowConstraint"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:text="@string/add_item"
+        android:theme="@style/AppTheme.LightButton" />
+
+    <Button
+        android:id="@+id/btnShowPackList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAddItem"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:text="@string/show_pack_list"
+        android:theme="@style/AppTheme.LightButton" />
+
+    <Button
+        android:id="@+id/btnShowItemList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnShowPackList"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:text="@string/show_item_list"
+        android:theme="@style/AppTheme.LightButton" />
+</RelativeLayout>
